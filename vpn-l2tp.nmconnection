@@ -1,5 +1,6 @@
 [connection]
-id=<VPN_NAME>
+id=vpn-l2tp
+uuid=35c4008e-d2bd-4f8b-a923-a9852c80ba11
 type=vpn
 autoconnect-retries=0
 
