@@ -49,7 +49,7 @@ reconnect_vpn() {
 ###
 
 # Lookup the UUID of the VPN connection using the "nmcli con" command, copy the 36 character string listed and past it below:
-VPN_UID='35c4008e-d2bd-4f8b-a923-a9852c80ba11'
+VPN_UID='<VPN_UUID>'
 
 # Delay in seconds
 DELAY='30s'
