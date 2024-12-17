@@ -9,7 +9,9 @@
 
 ## Setup
 
-Once the files have been installed to their respective location, execute this commands as root:
+1. Install files to their respective location
+1. Replace `<VALUES>` with actual ones
+1. Execute this commands as root:
 
 ```sh
 chmod 600 /etc/NetworkManager/system-connections/vpn-l2tp.nmconnection
