@@ -1,0 +1,10 @@
+[Unit]
+Description=Actively monitor VPN service
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/usr/local/bin/vpn-monitoring.sh
+Restart=on-failure
+RestartSec=5
+TimeoutStopSec=30
