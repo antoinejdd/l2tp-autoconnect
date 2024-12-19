@@ -15,6 +15,7 @@
 
 ```sh
 chmod 600 /etc/NetworkManager/system-connections/vpn-l2tp.nmconnection
+nmcli connection reload
 chmod a+rx /usr/local/bin/vpn-monitoring.sh
 systemctl daemon-reload
 chmod a+rx /etc/NetworkManager/dispatcher.d/zz-vpn-autoconnect.sh
